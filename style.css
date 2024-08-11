@@ -1,3 +1,12 @@
-.bg-yellow {
-    background-color: yellow;
+.dropdown-menu {
+    animation: slideup .3s ease-out;
+}
+
+@keyframes slideup {
+    from {
+        transform: translateY(-8%);
+    }
+    to {
+        transform: translateY(0%);
+    }
 }
