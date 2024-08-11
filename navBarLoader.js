@@ -11,3 +11,7 @@ function navLinkActive() {
         }
     }
 }
+
+$('#navLoad').load("nav.html");
+
+navLinkActive();
