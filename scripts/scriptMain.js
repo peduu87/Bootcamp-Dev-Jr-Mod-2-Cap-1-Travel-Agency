@@ -1,6 +1,5 @@
 const pagePath = window.location.pathname;
-const pageName = pagePath.substring(1);
-
+const pageName = `..${pagePath}`;
 function navLinkActive() {
     let navItemNum = document.getElementsByClassName("nav-link");
 
