@@ -5,9 +5,18 @@ function navLinkActive() {
 
     for (let navItem of navItemNum) {
         let itemHref = navItem.getAttribute("href");
-        console.log(itemHref);
         if (itemHref == pageName) {
             navItem.classList.add("active");
         }
     }
 }
+
+function waitForElement(selector, callback) {
+    if (document.querySelector(selector)) {
+        callback();
+    } else {
+        setTimeout(() => waitForElement(selector, callback), 500);
+    }
+}
+
+waitForElement("#navBar", navLinkActive);
