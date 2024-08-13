@@ -18,6 +18,9 @@ function dropdownItemActive() {
         let itemHref = dropdownItem.getAttribute("href");
         if (itemHref == pageName) {
             dropdownItem.classList.add("active");
+            let travelDropdown = document.getElementById("travelDropdown");
+            console.log(travelDropdown);
+            travelDropdown.classList.add("active");
         }
     }
 }
