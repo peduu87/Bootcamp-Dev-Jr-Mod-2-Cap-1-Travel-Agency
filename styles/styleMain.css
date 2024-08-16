@@ -21,5 +21,14 @@ html, body {
 }
 
 .bg-purple {
-    background-color: rgb(77, 42, 204);
+    background-color: #5900ff;
+}
+
+.text-purple {
+    color: #5900ff;
+}
+
+.scrollspy-itineraries {
+    height: 200px;
+    overflow-y: scroll;
 }
