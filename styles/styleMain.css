@@ -30,8 +30,20 @@ body {
     color: #600aff;
 }
 
-.text-purple-blue {
+.text-blue-purple {
     background-image: linear-gradient(90deg, #0d6efd 0%, #600aff 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-purple-blue {
+    background-image: linear-gradient(90deg, #600aff 0%, #0d6efd 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-purple-black {
+    background-image: linear-gradient(90deg, #600aff 0%, #000000 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -39,4 +51,24 @@ body {
 .scrollspy-itineraries {
     height: 200px;
     overflow-y: scroll;
+}
+
+.photo-holder {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.photo-holder-h300 {
+    overflow: hidden;
+    border-radius: 5px;
+    max-height: 225px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.photo-h300 {
+    position: relative;
+    height: auto;
+    width: 100%;
 }

@@ -1,0 +1,6 @@
+IMAGES:
+freepik
+pexels
+
+TEXT:
+ChatGPT
