@@ -72,3 +72,12 @@ body {
     height: auto;
     width: 100%;
 }
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.h4-bold {
+    font-size: 1.75rem;
+    font-weight: 600px;
+}
